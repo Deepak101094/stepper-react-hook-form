@@ -1,0 +1,40 @@
+html {
+}
+,
+body {
+	font-family: Roboto, Helvetica, sans-serif;
+}
+:root {
+	height: 100%;
+	background: #e8d2d1;
+	width: 100%;
+}
+
+.formContainer {
+	width: 100%;
+	/* sheight: 98vh; */
+	display: flex;
+	flexflow: row-wrap;
+	justify-content: center;
+	margin-top: 30px;
+	gap: 3;
+	/* align-items: center; */
+}
+
+.form {
+	max-height: 300px;
+}
+.tableContainer {
+	padding: 20px;
+	/* width: 80%; */
+	margin-top: 20px;
+	width: 90%;
+}
+.button_wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3rem;
+}
+.input-wrapper {
+	display: flex;
+}
